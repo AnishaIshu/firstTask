@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/25146c01d7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo_header">
+       <img src="./images/logo.png" alt="">
+      <button class="navbar_toggle">
+        <i class="fas fa-bars fa-1x"></i>
+      </button>
+    </div>
+    <ul class="main_nav">
+      <li>
+        <a href="#" class="nav_links">Products</a>
+      </li>
+      <li>
+        <a href="#" class="nav_links">About</a>
+      </li>
+      <li>
+        <a href="#" class="nav_links">App</a>
+      </li>
+      <li>
+        <a href="#" class="nav_links">Service</a>
+      </li>
+      <li id="btn">
+      <a href="#" class="btn1">LOG IN</a>
+      <a href="#" class="btn2">SING IN</a>
+      </li>
+    </ul>
+  </nav>
+
+<!-- HERO -->
+
+<section class="header">
+
+  <div class="offer">
+      <h6>MORE OFFERS</h6>
+      <h1>There is<br> Something else<br>for You</h1>
+      <img src="./images/image3.jpg" alt="">
+
+      <div class="cart">
+          <div class="cartTxt">
+          <h6>SHOP</h6>
+          <h4>All product</h4>
+          </div>
+          <div class="cartIcon">
+          <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+      </div>
+  </div>
+
+  <div class="tech">
+
+      <h6>WORLD OF HEARING TECHNOLOGY</h6>
+      <h1>View our blog</h1>
+      <img src="./images/image1.jpg" alt="">
+      
+
+      <div class="faq">
+      <div class="history">
+          <h6>DISCOVER <br> OUR HISTORY</h6>
+          <h1>About us</h1>
+     </div>
+
+     <div class="question">
+       <h6>HAVE SOME <br> QUESTIONS?</h6>
+       <h1>Contact Us</h1>
+     </div>
+     </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- javaScript -->
+  <script>
+    const navToggle = document.querySelector(".navbar_toggle");
+const links = document.querySelector(".main_nav");
+
+navToggle.addEventListener('click', function(){
+    links.classList.toggle("show_nav");
+})
+  </script>
+</body>
+</html>
